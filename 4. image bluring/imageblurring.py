@@ -8,7 +8,7 @@ k_size = 7 # Kernel size for blurring
 img_blur = cv2.blur(img,(k_size, k_size)) # Apply average blurring 
 
 #Gaussian Blurring
-img_gaussian = cv2.GaussianBlur(img,(k_size, k_size),5) # Apply Gaussian blurring with sigma=5 meaning how much the blur spreads
+img_gaussian = cv2.GaussianBlur(img,(k_size, k_size),5) # Apply Gaussian blurring with sigma=5 meaning how much the blur spreads and kernel size 7x7.
 
 #Median Blurring    
 img_median = cv2.medianBlur(img, k_size) # Apply Median blurring
